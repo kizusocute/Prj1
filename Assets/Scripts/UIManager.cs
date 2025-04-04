@@ -49,6 +49,15 @@ public class UIManager : MonoBehaviour
         fightBoss.SetActive(false);
         Time.timeScale = 0;
     }
+    /*public void ReplayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        mainMenu.SetActive(false);
+        gameOver.SetActive(false);
+        pauseGameMenu.SetActive(false);
+        winGameMenu.SetActive(false);
+        Time.timeScale = 0;
+    }*/
     public void PauseGameMenu()
     {
         pauseGameMenu.SetActive(true);
