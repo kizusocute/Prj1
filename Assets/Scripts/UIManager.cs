@@ -46,6 +46,7 @@ public class UIManager : MonoBehaviour
         mainMenu.SetActive(false);
         pauseGameMenu.SetActive(false);
         winGameMenu.SetActive(false);
+        fightBoss.SetActive(false);
         Time.timeScale = 0;
     }
     public void PauseGameMenu()
